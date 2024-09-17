@@ -4,7 +4,6 @@ use clap::Parser;
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
-    /// Generate prime numbers up to this number
     #[arg(short, long)]
     num: u64,
 }
